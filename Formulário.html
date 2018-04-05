@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+	<h1>Preencha os campos abaixo:</h1>
+	<fieldset>
+     <form action="/pagina_processa_dados_do_form" method="post">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome"/>	
+      </div>
+
+      <div>
+	    <label for="Sobrenome">Sobrenome:</label>
+	    <input type="text" name="Sobrenome">
+      </div>
+      
+      <div>
+      	<label for="Nascimento">Nascimento:</label>
+      	<input type="text" name="dia" size="2" maxlength="2" value="dd">
+      	<input type="text" name="mês" size="2" maxlength="2" value="mm">
+      	<input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+      </div>
+      <div>
+      	<label for="Identidade">Identidade:</label>
+      	<input type="text" name="Identidade">
+      </div>
+
+      <div>
+      	<label for="CPF">CPF: </label>
+      	<input type="text" name="CPF">
+      </div>
+
+      <div>
+      	<label for="Sexo">Sexo: </label>
+      	<input type="text" name="Sexo" value="Unknown">
+      </div>
+
+      <div>
+      	<label for="Estado Civil">Estado Civil: </label>
+      	<input type="text" name="Estado Civil">
+      </div>
+
+      <div>
+      	<label for="Telefone">Telefone: </label>
+      	<input type="text" name="Telefone" value="(99)9999-9999">
+      </div>
+
+      <div>
+      	<label for="Celular">Celular: </label>
+      	<input type="text" name="Celular" value="(99)9999-9999">
+      </div>
+
+      <div>
+      	<label for="email"> Email: </label>
+        <input type="email" name="email">
+      </div>
+
+      <div>
+      	<label for="Endereço"> Endereço: </label>
+      	<input type="text" name="Bairro" value="Bairro:">
+      	<input type="text" name="Rua" value="Rua:">
+      	<input type="text" name="N°" value="N°:">
+      	<input type="text" name="Adicional" value="Adicional:">
+      </div>
+      
+      <div class="button">
+        <button type="Submit">Enviar</button>
+      </div>
+    </fieldset>
+     </form>
+
+</body>
+</html>

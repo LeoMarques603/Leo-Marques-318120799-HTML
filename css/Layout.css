@@ -1,0 +1,10 @@
+caixa {
+	height: 100px;
+	width: 100px;
+	background-color: grey;
+}
+caixa_1 {
+	padding: 2%
+	height: 100px;
+	width: 100px;
+}
